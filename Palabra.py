@@ -1,0 +1,10 @@
+palabra=input("Ingrese una palabra: ")
+palabra1=len(palabra)
+a=palabra.count('a')
+e=palabra.count('e')
+i=palabra.count('i')
+o=palabra.count('o')
+u=palabra.count('u')
+metrica=palabra1*(a+e+i+o+u)
+print(f'Total de vocales: {metrica}')
+
